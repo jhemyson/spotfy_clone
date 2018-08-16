@@ -49,7 +49,7 @@ const Sidebar = () => (
           <span>PLAYLISTS</span>
         </li>
         <li>
-          <a href="">Molheres do rock</a>
+          <a href="">Molhores do rock</a>
         </li>
 
       </Nav>
