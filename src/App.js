@@ -1,11 +1,10 @@
 import React from 'react'
 
 import './styles/global'
+import Sidebar from './components/Sidebar'
 
 const App = () => (
-  <div>
-    <h1>Hello World</h1>
-  </div>
+  <Sidebar/>
 )
 
 export default App
