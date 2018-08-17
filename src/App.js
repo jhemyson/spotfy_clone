@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 import './styles/global'
 
@@ -8,18 +9,24 @@ import Header from './components/Header'
 
 import { Wrapper, Container, Content } from './styles/components'
 
+import Routes from './routes'
+
 const App = () => (
-  <Wrapper>
-    <Container>
-      <Sidebar/>
+  <BrowserRouter>
+    <Wrapper>
+      <Container>
+        <Sidebar/>
 
-      <Content>
-        <Header/>
-      </Content>
-    </Container>
+        <Content>
+          <Header/>
 
-    <Player/>
-  </Wrapper>
+          <Routes/>
+        </Content>
+      </Container>
+
+      <Player/>
+    </Wrapper>
+  </BrowserRouter>
 )
 
 export default App
