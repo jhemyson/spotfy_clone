@@ -18,10 +18,10 @@ const Player = () => (
         src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/Stargroves-album-cover.png?auto=format&q=60&fit=max&w=930"
         alt="Cover" />
 
-        <div>
-          <span>Time Like these</span>
-          <small>Full Fighters</small>
-        </div>
+      <div>
+        <span>Time Like these</span>
+        <small>Full Fighters</small>
+      </div>
     </Current>
 
     <Progress>
